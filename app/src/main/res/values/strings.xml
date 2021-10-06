@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">DevEcactProject</string>
+
+    <string name="university_overview">Contrary to popular belief,
+        Lorem Ipsum is not simply random text. It has roots in a piece
+        of classical Latin literature from 45 BC, making it over 2000
+        years old. Richard McClintock, a Latin professor at Hampden-Sydney
+        College in Virginia, looked up one of the more obscure Latin words,
+        consectetur, from a Lorem Ipsum passage, and going through the cites
+        of the word in classical literature.\n</string>
+
+    <string name="tuition_fees">Course: Between £27,840 and £39,010\nCourse: Between £27,840 and £39,010\nCourse: Between £27,840 and £39,010\nCourse: Between £27,840 and £39,010\nCourse: Between £27,840 and £39,010\n
+    </string>
+
+
+    <string name="scholarship">So many people have signed up for our free Masters
+        programme. What are you waiting for? Up to 100% scholarship to bright up
+        Malaysia students to pursue their higher education. Find out more. Intake
+        in Progress. Courses: Foundation in Arts, Foundation in Business.\n
+    </string>
+
+
+    <string name="accommodation">Lodging refers to the renting of a short-term
+        dwelling. People who travel and stay away from home for more than a day
+        need lodging for sleep, rest, food, safety, shelter from cold temperatures
+        or rain, storage of luggage</string>
+
+
+
+    <string name="city_life">Today we can identify people in two broad groups-the
+        country-man and the city-man or townsman. The change that civilization has
+        brought about in the world has caused this inevitable division. Consequently,
+        each group has its own method of living, distinct characteristics and traits.</string>
+
+
+
+</resources>

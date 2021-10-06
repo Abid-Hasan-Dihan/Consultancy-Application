@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:weightSum="2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="#F15556"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome_screen"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+
+            android:id="@+id/signInMainId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/consult_red"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Sign in"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            />
+        <Button
+
+            android:id="@+id/createAcMainId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/consult_red"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Create free account"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            />
+
+        <TextView
+
+            android:id="@+id/registerMainID"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register later"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/roboto_regular"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

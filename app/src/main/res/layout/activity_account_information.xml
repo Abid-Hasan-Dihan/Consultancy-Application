@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="@drawable/background"
+    tools:context=".AccountInformation_Activity">
+
+
+
+    <LinearLayout
+
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/schoolCardViewId"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="5"
+                    android:orientation="vertical"
+                    >
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:hint="Name"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_regular"
+                        android:background="@drawable/custom_button_border"
+                        />
+
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:paddingRight="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/custom_button_border"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center"
+                        android:paddingLeft="35dp"
+                        android:hint="Date of birth"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:paddingRight="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/custom_button_border"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center"
+                        android:paddingLeft="35dp"
+                        android:hint="Address"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:paddingRight="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/custom_button_border"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center"
+                        android:paddingLeft="35dp"
+                        android:hint="Passport/NID"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:paddingRight="15dp"
+                        android:background="@drawable/custom_button_border"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center"
+                        android:paddingLeft="35dp"
+                        android:hint="Contact number"
+                        />
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/restuarantId"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:weightSum="2"
+                android:orientation="vertical"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="15dp"
+                    android:background="@drawable/custom_button_border"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:paddingLeft="35dp"
+                    android:hint="Passport/NID"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingRight="15dp"
+                    android:background="@drawable/custom_button_border"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    android:paddingLeft="35dp"
+                    android:hint="Contact number"
+                    />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            >
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+            <TextView
+
+                android:id="@+id/text_viewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I read and accept Terms and Service and Privacy Policy"
+                android:textSize="12sp"
+                android:layout_marginLeft="4dp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/black"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <Button
+
+            android:id="@+id/signInAcInfoId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/consult_red"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="30dp"
+            android:text="Sign in"
+            android:textSize="14sp"
+            android:clickable="true"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
